@@ -1,0 +1,27 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+clark.py	../clark.py	1;"	kind:file	line:1
+dataset	../recognizer.py	/^dataset = []$/;"	kind:variable	line:17
+face_encodings	../recognizer.py	/^        face_encodings = face_recognition.face_encodings(small_frame, face_locations)$/;"	kind:variable	line:40
+face_encodings	../recognizer.py	/^face_encodings = []$/;"	kind:variable	line:25
+face_locations	../recognizer.py	/^        face_locations = face_recognition.face_locations(small_frame)$/;"	kind:variable	line:39
+face_locations	../recognizer.py	/^face_locations = []$/;"	kind:variable	line:24
+face_names	../recognizer.py	/^        face_names = []$/;"	kind:variable	line:42
+face_names	../recognizer.py	/^face_names = []$/;"	kind:variable	line:26
+font	../recognizer.py	/^        font = cv2.FONT_HERSHEY_DUPLEX$/;"	kind:variable	line:69
+found	../recognizer.py	/^            found = [x for x in match if x]$/;"	kind:variable	line:47
+match	../recognizer.py	/^            match = face_recognition.compare_faces(dataset, face_encoding)$/;"	kind:variable	line:45
+name	../recognizer.py	/^                name = "Charles"$/;"	kind:variable	line:49
+name	../recognizer.py	/^            name = "Unknown"$/;"	kind:variable	line:46
+obama_face_encoding	../recognizer.py	/^    obama_face_encoding = face_recognition.face_encodings(obama_image)[0]$/;"	kind:variable	line:20
+obama_image	../recognizer.py	/^    obama_image = face_recognition.load_image_file("data\/{0}.jpg".format(i))$/;"	kind:variable	line:19
+process_this_frame	../recognizer.py	/^    process_this_frame = not process_this_frame$/;"	kind:variable	line:53
+process_this_frame	../recognizer.py	/^process_this_frame = True$/;"	kind:variable	line:27
+recognizer.py	../recognizer.py	1;"	kind:file	line:1
+small_frame	../recognizer.py	/^    small_frame = cv2.resize(frame, (0, 0), fx=0.25, fy=0.25)$/;"	kind:variable	line:34
+unlocker.py	../unlocker.py	1;"	kind:file	line:1
+video_capture	../recognizer.py	/^video_capture = cv2.VideoCapture(0)$/;"	kind:variable	line:14
