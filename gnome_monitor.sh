@@ -1,5 +1,7 @@
 #!/bin/bash
 
+BASEDIR=$(dirname "$0")
+cd $BASEDIR
 dbus-monitor --session "type='signal',interface='org.gnome.ScreenSaver'" | \
 ( while true
     do read X
